@@ -149,3 +149,9 @@ a {
 ::-webkit-scrollbar-track {
   background-color: var(--secondaryTextLight);
 }
+
+/* Selction Highlight */
+
+.highlight-indigo {
+  color: var(--primaryInigo);
+}
