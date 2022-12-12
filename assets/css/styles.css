@@ -83,13 +83,11 @@ body {
 .card:hover {
   border-color: var(--primaryInigo);
 
-  scale: 1.1;
+  scale: 1.05;
 }
 
 .project-navigation .card-title {
   color: var(--secondayTextDark);
-
-  text-decoration: underline;
 }
 
 .footer-list {
@@ -115,4 +113,12 @@ body {
 
 .footer-list li:hover {
   filter: grayscale(0) opacity(1);
+}
+
+a {
+  text-decoration: none;
+}
+
+.tech-name {
+  color: var(--primaryInigo);
 }
