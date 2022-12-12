@@ -131,3 +131,19 @@ a {
 .contact-submit {
   background-color: var(--primaryInigo);
 }
+
+::-webkit-scrollbar {
+  width: 1.1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primaryText);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--primaryInigo);
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--secondaryTextLight);
+}
