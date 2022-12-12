@@ -122,3 +122,12 @@ a {
 .tech-name {
   color: var(--primaryInigo);
 }
+
+.contact-form {
+  box-shadow: 40px 0px 20px -35px rgba(39, 39, 39, 0.5),
+    -40px 0px 20px -35px rgba(38, 38, 38, 0.5);
+}
+
+.contact-submit {
+  background-color: var(--primaryInigo);
+}

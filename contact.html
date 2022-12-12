@@ -47,7 +47,7 @@
               <a class="nav-link" href="about.html">About Me</a>
             </li>
             <li class="nav-item mx-auto ps-3">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
         </div>
@@ -62,67 +62,50 @@
         </a>
       </div>
     </nav>
-    <!-- About ME -->
-    <main class="container my-4">
-      <h2 class="section-title text-center">About Me</h2>
-      <!-- Avatar and Description -->
-      <div class="row my-4">
-        <div class="about-avatar col-12 col-lg-4 d-flex align-items-center">
-          <img
-            src="assets/images/Avatar-Image.jpg"
-            alt="Zaid Ansari"
-            class="container-fluid col-10 col-sm-6 col-md-6 col-lg-12"
-          />
-        </div>
-        <div class="about-description col-12 col-lg-8">
-          <p class="general-light mt-4">
-            My name is
-            <span class="tech-name general-semiBold">Zaid Ansari</span> and I am
-            a front end developer. I have a passion for creating intuitive and
-            visually appealing user interfaces using
-            <span class="tech-name general-semiBold">HTML</span>,
-            <span class="tech-name general-semiBold">CSS</span>, and
-            <span class="tech-name general-semiBold">JavaScript</span>. I am
-            also proficient in the popular front end framework called
-            <span class="tech-name general-semiBold">React</span> I have worked
-            on a variety of web applications, I am excited about the opportunity
-            to bring my skills and expertise to your team and help create
-            innovative and engaging web applications."
-          </p>
-          <p class="general-light">
-            I have earned my
-            <span class="card-title general-semiBold"
-              >Bachelor of Engineering</span
-            >
-            degree from Yadavrao Tasgaonkar College of Engineering and
-            Management (<span class="card-title general-semiBold"
-              >Mumbai Univesity</span
-            >) in the year 2019. I am eager to put the knowledge and skills I
-            have gained to use in the professional world & also excited to learn
-            new technologies and programming languages, and I am confident that
-            my background in engineering will make me a valuable asset in this
-            field.
-          </p>
-        </div>
-      </div>
-    </main>
-    <!-- Numbers -->
-    <section
-      class="my-stats bg-light container-fluid d-flex flex-column flex-md-row justify-content-evenly py-5 border"
-    >
-      <div class="d-flex flex-column align-items-center my-3">
-        <span class="general-semiBold fs-1">10k+</span
-        ><span>Lines of Code</span>
-      </div>
-      <div class="d-flex flex-column align-items-center my-3">
-        <span class="general-semiBold fs-1">50+</span
-        ><span>Projects Created</span>
-      </div>
-      <div class="d-flex flex-column align-items-center my-3">
-        <span class="general-semiBold fs-1">1,000+</span
-        ><span>Followers on LinkedIn</span>
-      </div>
+    <!-- Contact  -->
+    <section class="container">
+        <h2 class="text-center section-title my-3">Contact Me</h2>
+        <section class="row my-4 g-4">
+            <div class="col-12 col-md-6">
+                <h3 class="text-center text-md-start ps-4">Contact Details</h3>
+                <ul class="list-group-flush general-light border rounded py-3">
+                    <li class="list-group-item">Location: <a href="https://www.google.com/search?q=mumbai" target="_blank">Mumbai, Maharashtra, India</a></li>
+                    <li class="list-group-item">Contact Number: <a href="tel:+91 8655 212 XXX">8655 2X2 XXX</a></li>
+                    <li class="list-group-item">Email ID: <a href="mailto:zaidansari42@gmail.com">zaidansari42@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6">
+                <h3 class="text-center text-md-start ps-4">Contact Form</h3>
+                <div class=" p-4 contact-form">
+                    <form>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label general-light">Your Name</label>
+                      <input type="text" class="form-control bg-light general-light" id="exampleInputName" placeholder="John Doe">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label general-light">Your Email Address</label>
+                        <input type="email" class="form-control bg-light general-light" id="validationCustomUsername" aria-describedby="emailHelp" placeholder="example@organisation.com" required />
+                        <div id="emailHelp" class="form-text">I'll never share your email with anyone else.</div>
+                      </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">I want to hire you</label>
+                    </div>
+                    <div class="general-light mb-3">
+                        <label for="exampleSubject" class="form-label">Subject</label>
+                        <input type="text" class="form-control bg-light" id="exampleSubject">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label general-light">Comments</label>
+                        <textarea class="form-control bg-light" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                    <button type="submit" class="btn btn-primary contact-submit px-4 py-3 my-4 d-block mx-auto ">Submit</button>
+                  </form>
+                </div>
+            </div>
+        </section>
     </section>
+    <!-- Footer -->
     <footer class="bg-light container-fluid text-center mt-5 pt-5 ">
       <h2 class="general-semiBold">Connect With Me</h2>
       <ul
