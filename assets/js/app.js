@@ -15,7 +15,7 @@ const countStart = function () {
     const time = duration / num;
 
     //   Initializing count
-    let count = 1;
+    let count = 0;
 
     const countIncrement = setInterval(() => {
       // Only for the Lines of Code because of 'K'
