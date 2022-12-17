@@ -77,27 +77,30 @@
             <div class="col-12 col-md-6">
                 <h3 class="text-center text-md-start ps-4">Contact Form</h3>
                 <div class=" p-4 contact-form">
-                    <form>
+                    <form data-netlify="true">
                     <div class="mb-3">
                       <label for="exampleInputPassword1" class="form-label general-light">Your Name</label>
-                      <input type="text" class="form-control bg-light general-light" id="exampleInputName" placeholder="John Doe">
+                      <input type="text" class="form-control bg-light general-light" id="exampleInputName" placeholder="John Doe" name="name">
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label general-light">Your Email Address</label>
-                        <input type="email" class="form-control bg-light general-light" id="validationCustomUsername" aria-describedby="emailHelp" placeholder="example@organisation.com" required />
+                        <input type="email" name="email" class="form-control bg-light general-light" id="validationCustomUsername" aria-describedby="emailHelp" placeholder="example@organisation.com" required />
                         <div id="emailHelp" class="form-text">I'll never share your email with anyone else.</div>
                       </div>
                     <div class="mb-3 form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1" name="hire">
                       <label class="form-check-label" for="exampleCheck1">I want to hire you</label>
                     </div>
                     <div class="general-light mb-3">
                         <label for="exampleSubject" class="form-label">Subject</label>
-                        <input type="text" class="form-control bg-light" id="exampleSubject">
+                        <input type="text" class="form-control bg-light" id="exampleSubject" name="subject">
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label general-light">Comments</label>
                         <textarea class="form-control bg-light" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                    <div class="mb-3">
+                        <div data-netlify-recaptcha="true" ></div>
                       </div>
                     <button type="submit" class="btn btn-primary contact-submit px-4 py-3 my-4 d-block mx-auto ">Submit</button>
                   </form>
