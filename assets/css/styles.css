@@ -78,12 +78,16 @@ body {
   scale: 0.95;
 
   transition: 0.3s;
+
+  overflow: hidden;
 }
 
-.card:hover {
+.card:hover .project-tile {
   border-color: var(--primaryInigo);
 
-  scale: 1.05;
+  scale: 1.1;
+
+  transition: 0.3s;
 }
 
 .project-navigation .card-title {
